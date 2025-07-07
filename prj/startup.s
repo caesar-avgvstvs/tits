@@ -25,9 +25,7 @@ _vector_base:
 	.word SWHandler
 	.word 0
 	/* External Interrupts (Defined in the CH32V203 manual) */
-	.word WWDSIrqHandler
-	.word PVDIrqHandler
-	.word TamperIrqHandler
-	.word RTCIrqHandler
-	.word FlashIrqHandler
-	.word RCCIrqHandler
+ /* Not gonna handle any of the external interrupts as of now */
+
+ .option rvc
+ .section .vector_handler, "ax",@progbits

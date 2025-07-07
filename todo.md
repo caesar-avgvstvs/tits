@@ -15,3 +15,16 @@
 # Learn
 
 1. Flash: Zero-wait state access
+
+
+
+
+# Immediate
+
+TODO:
+1. startup.s
+    1. Figure out which external ISRs have to be set up for GPIO to be working.
+2. systemInit()
+3. GPIO Port A bit read, write
+4. a rudimentary system delay routine.
+

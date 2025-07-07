@@ -1,3 +1,12 @@
+# TITS boot flow
+
+1. startup.s sets up the interrupt vector table
+2. startup.s then calls the systemInit routine setup the system clock
+3. startup.s then transfers control to the C routine 'main'.
+4. main then initializes the interrupt controller and the peripherals that are to be used.
+5. main then starts the scheduler to run the tasks.
+
+
 ## CH32V203 UART Driver Notes
 
 - 3 USART (USART1/2/3)
