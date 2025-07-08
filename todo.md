@@ -22,9 +22,11 @@
 # Immediate
 
 TODO:
-1. startup.s
+1. DONE startup.s
     1. Figure out which external ISRs have to be set up for GPIO to be working.
-2. systemInit()
+2. 09-07-2025 systemInit()
+    1. Configure core clock
+    2. Configure bus clocks
 3. GPIO Port A bit read, write
 4. a rudimentary system delay routine.
 
