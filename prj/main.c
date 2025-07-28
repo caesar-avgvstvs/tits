@@ -10,7 +10,7 @@ int main(void)
 	 * 	- Clock Init
 	 * 	- Interrupt Ctlr Init
 	 */
-	titsSysInit();
-	gpioInit(PORTA, PIN0, MODE_IN);
-	uartInit();
+	sysInit();
+	//gpioInit(PORTA, PIN0, MODE_IN);
+	//uartInit();
 }
