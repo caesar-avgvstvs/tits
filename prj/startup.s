@@ -103,8 +103,8 @@ handle_reset:
  ori t0, t0, 3
  csrw mtvec, t0
 
-/* Jump to the kernel's systemInit() routine */
- jal titsSysInit
+/* Jump to the kernel's sysInit() routine */
+ jal sysInit
 
 /* Jump to the kernel */
  la t0, main
